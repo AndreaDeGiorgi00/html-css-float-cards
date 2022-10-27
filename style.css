@@ -6,10 +6,12 @@
 }
 
 /*utilities*/
+
 .etichetta{
-    margin: auto 5px;
+    
+    margin: auto 10px;
     float: left;
-    width:calc(100%/4 - 40px);
+    width:calc(100%/4);
     background-color: black;
     
 }
@@ -41,12 +43,14 @@ div img{
     float: left;
     width: 70px;
 }
-
-
+/*centratra da rendere più elegante*/
+.first{
+    margin-left: 140px;
+}
 
 /*tecnica row*/
 .row{
-    margin:0 auto;
+    margin:20px auto;
     padding: 0 30px;
     
 }
