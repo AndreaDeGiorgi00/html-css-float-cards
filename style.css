@@ -5,3 +5,56 @@
     padding: 0;
 }
 
+/*utilities*/
+.etichetta{
+    margin: 20px 5px;
+    float: left;
+    width:calc((100%/4) - 40px);
+    background-color: black;
+    padding: 20px;
+}
+
+.testo{
+    color: white;
+}
+
+
+h1{
+    color:rgb(180, 46, 69);
+    text-align: center;
+    width:100%;
+    margin: 100px auto;
+}
+
+.contenitore{
+
+    margin:0 10%;
+}
+
+p{
+    text-align: center;
+    width: 100%;
+    margin: 100px auto;
+}
+
+div img{
+    float: left;
+    width: 105px;
+}
+
+
+
+/*tecnica row*/
+.row{
+    margin:0 auto;
+
+    width: 100%;
+}
+
+/*tecnica clearfix*/
+.etichetta::after ,
+.row::after{
+    content:"";
+    clear:both;
+    display:table;
+}
