@@ -7,11 +7,11 @@
 
 /*utilities*/
 .etichetta{
-    margin: 20px 5px;
+    margin: auto 5px;
     float: left;
-    width:calc((100%/4) - 40px);
+    width:calc(100%/4 - 40px);
     background-color: black;
-    padding: 20px;
+    
 }
 
 .testo{
@@ -39,7 +39,7 @@ p{
 
 div img{
     float: left;
-    width: 105px;
+    width: 70px;
 }
 
 
@@ -47,8 +47,8 @@ div img{
 /*tecnica row*/
 .row{
     margin:0 auto;
-
-    width: 100%;
+    padding: 0 30px;
+    
 }
 
 /*tecnica clearfix*/
