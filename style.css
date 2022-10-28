@@ -4,6 +4,8 @@
     margin: 0;
     padding: 0;
 }
+
+
 body{
     font-family: 'fredoka one'  ;
     background-color: black;
@@ -11,34 +13,30 @@ body{
 
 /*utilities*/
 
-/*vergogna*/
-p.igrizia{
-    width: 77%;
+.colonna{
+    float: left;
+    width:calc(100%/3);
+    padding: 10px;
 }
 
 
 .etichetta{
-    
-    margin: auto 10px;
-    float: left;
-    width:calc(100%/4);
-    background-color: black;
-    
-}
-
-/*centratra da rendere più elegante*/
-.etichetta.first{
-    margin-left: 140px;
+    height: 80px;
+    background-color: black;  
 }
 
 .testo{
     color: white;
 }
 
+.testi{
+    height: 80px;
+    text-align: left;
+}
 
 h1{
     color:rgb(180, 46, 69);
-    text-align: center;
+    text-align:center;
     width:100%;
     margin: 70px auto;
     padding-top:50px;
@@ -46,26 +44,24 @@ h1{
 
 .contenitore{
     background-color:white;
-    margin:0 10%;
+    margin:0 5%;
+    padding: 0 10%;
 }
 
 p{
     text-align: center;
-    
     margin: 100px auto;
 }
 
 div img{
     float: left;
-    width: 70px;
+    height: 100%;
 }
 
 
 /*tecnica row*/
 .row{
-    margin:20px auto;
-    padding: 0 30px;
-    
+    margin:0 -10px;
 }
 
 /*tecnica clearfix*/
